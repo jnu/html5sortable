@@ -104,6 +104,12 @@ $('.sortable').sortable({
     forcePlaceholderSize: true
 });
 ```
+Use `placeholderContents` to set the contents of the placeholder:
+``` javascript
+$('.sortable').sortable({
+    placeholderContents: '<div>Drop here</div>'
+});
+```
 
 Use `connectWith` option to create connected lists:
 
